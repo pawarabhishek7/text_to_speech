@@ -10,7 +10,7 @@ mytext  = input("")
 
 language = 'en'
 myobj = gTTS(text=mytext, lang=language, slow=False) 
-myobj.save("welcome222.mp3") 
+myobj.save("a.mp3") 
   
 # Playing the converted file 
-os.system("mpg321 welcome.mp3")
+os.system("a.mp3")
